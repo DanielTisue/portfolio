@@ -2158,7 +2158,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("https://images.unsplash.com/photo-1529465230221-a0d10e46fcbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60");
+		background: #CCE8F4 url("https://res.cloudinary.com/danieltisue/image/upload/v1566309552/pfPhotoReal.jpg");
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: repeat;
@@ -2306,6 +2306,14 @@ input, select, textarea {
 		#footer ul.contact li, #footer ul.dates li, #footer ul.divided li {
 			border-top-color: #353434;
 			border-top-color: rgba(255, 255, 255, 0.05);
+		}
+		.contactMe li {
+			list-style: none;
+			text-align: center;
+		}
+		.social {
+			display: flex;
+			justify-content: center;
 		}
 
 		#footer header {
